@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+ 
+ *{
+  /* background-color: aqua; */
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+ }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+ body{
+  font-family: 'Nunito', sans-serif;
+  /* background: #0059ff; */
+  background: #9D76C1;
+ }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+ #quote-box{
+  background:   #DFCCFB;
+  width: 40rem;
+  margin: 10rem auto;
+  padding: 3rem;
+  border-radius: 10px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+ }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ #text{
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+ }
+
+ #autor{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.9rem;
+ }
+
+ #buttons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+ }
+
+ .social-media{
+  display: flex;
+ }
+
+ .social-media > a {
+  margin-right:  .5rem;
+  background: #5B0888;
+  padding: .3rem .5rem;
+  cursor: pointer;
+ }
+
+ .social-media > a:hover{
+  opacity: .9;
+ }
+
+ .social-media > a img{
+  width:1.5rem;
+ }
+
+ #new-quote{
+  background: #5B0888;
+  border:none;
+  color:#fff;
+  padding: .7rem 1rem;
+  font-size: .9rem;
+  font-weight: bold;
+  border-radius: 2px;
+  outline: none;
+  cursor:pointer;
+ }
+
+ #new-quote:hover{
+  opacity: 0.9 ;
+ }
