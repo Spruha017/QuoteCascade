@@ -5,7 +5,7 @@ import React from 'react';
 
 function App() {
   return (
-    <div  className='APP'>
+    <div  className='APP'  >
       <h1 >QuoteCascade</h1>
       <Quotes/>
     </div>

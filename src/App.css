@@ -12,7 +12,16 @@
   /* background: #0059ff; */
   background: #9D76C1;
  }
-
+ .APP {
+  display: flex;
+  padding-top: 3rem;
+  flex-direction: column;
+  align-items: center; /* Vertical center alignment */
+  justify-content: flex-start; /* Align content to the top */
+  height: 100vh;
+  font-size:2rem ;
+  /* Set the height to 100% of the viewport height */
+}
  #quote-box{
   background:   #DFCCFB;
   width: 40rem;
